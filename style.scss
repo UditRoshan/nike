@@ -40,7 +40,8 @@ p {
     font-family: $fourthFont;
 }
 
-.nikeMain {
+@media (max-width: 600px) {
+    .nikeMain {
     height: 100vh;
     position: relative;
     header {
@@ -223,3 +224,5 @@ p {
         }
     }
 }
+}
+
